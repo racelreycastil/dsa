@@ -12,7 +12,7 @@ class Character:
         # str. It raises TypeError/ValueError for anything else (bool, None, "  ").
         checked = CharacterDefinition(agent_id)
         self._agent_id = checked.agent_id
-
+        
     @property
     def agent_id(self) -> str:
         return self._agent_id
