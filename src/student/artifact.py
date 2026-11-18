@@ -9,8 +9,7 @@ class Artifact:
     __slots__ = ("_artifact_id", "_position", "_value")
 
     def __init__(self, artifact_id: str, position: Position, value: int) -> None:
-        # The public definition enforces: trimmed nonempty str id, exact Position,
-        # exact int value >= 0 (no bool, no float). It also detaches the Position.
+    
         checked = ArtifactDefinition(artifact_id, position, value)
         self._artifact_id = checked.artifact_id
         self._position = checked.position
