@@ -1,6 +1,8 @@
 """Artifact: initial reward data. The runtime, not the artifact, awards points."""
 from src.api import ArtifactDefinition, Position
 
+#hello this is daniel
+
 class Artifact:
     """Expose read-only canonical identity, position, and nonnegative value."""
 
