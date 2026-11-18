@@ -3,7 +3,11 @@ from src.api import ArtifactDefinition, Position
 #hello
 #hi
 #whaatt
+<<<<<<< HEAD
+#niggaaaa
+=======
 #wahwdaassaad
+>>>>>>> a0455de3257e651ce36bd91134e4c5020dbc333d
 class Artifact:
     """Expose read-only canonical identity, position, and nonnegative value."""
 
